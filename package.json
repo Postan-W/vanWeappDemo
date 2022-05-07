@@ -1,0 +1,24 @@
+{
+  "name": "vantweappdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Postan-W/vanWeappDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Postan-W/vanWeappDemo/issues"
+  },
+  "homepage": "https://github.com/Postan-W/vanWeappDemo#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.3.3",
+    "miniprogram-api-promise": "^1.0.4"
+  }
+}

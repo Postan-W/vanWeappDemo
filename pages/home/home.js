@@ -7,7 +7,18 @@ Page({
     data: {
 
     },
-
+    async getInfo(){
+        //花括号属于结构语法，data:res的意思是将原对象的data指向的对象拿出来并命名为res
+        const {data:res} = await wx.p.request({
+          url: 'https://www.escook.cn/api/get',
+          method:"GET",
+          data:{
+              name:'test',
+              age:20
+          }
+        })
+        console.log(res)
+    },
     /**
      * 生命周期函数--监听页面加载
      */

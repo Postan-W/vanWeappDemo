@@ -1,5 +1,10 @@
 // app.js
+import {promisify, promisifyAll} from "miniprogram-api-promise"
+const wxp = wx.p = {}
+promisifyAll(wx,wxp)
+
 App({
+  towxml:require('/towxml/index'),
   onLaunch() {
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []

@@ -1,2 +1,5 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view></view>
+<van-button type="primary" size="large">van按钮</van-button>
+<van-button type="primary" loading loading-text="加载中..." size="large"/>
+<van-button type="danger" size="large" bindtap="getInfo">van危险按钮</van-button>

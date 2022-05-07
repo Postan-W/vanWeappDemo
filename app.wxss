@@ -8,3 +8,10 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/*CSS变量具有作用域，对于页面来说，page是最大作用域*/
+/*颜色变量定义名称https://github.com/youzan/vant-weapp/blob/dev/packages/common/style/var.less*/
+page{
+    --button-danger-background-color:#C00000;
+    --button-danger-border-color: #D60000;
+    --button-border-radius:20px;
+}

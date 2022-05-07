@@ -2,12 +2,37 @@
   "pages":[
     "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/contact/contact"
   ],
+  "tabBar": {
+      "list": [
+        {"pagePath":"pages/home/home",
+            "text":"首页",
+            "iconPath": "/images/tabs/home.png",
+            "selectedIconPath": "/images/tabs/home_activate.png"
+          },
+          {"pagePath":"pages/message/message",
+            "text":"消息",
+            "iconPath": "/images/tabs/message.png",
+            "selectedIconPath": "/images/tabs/message.png"
+          },
+          {"pagePath":"pages/contact/contact",
+            "text":"联系",
+            "iconPath": "/images/tabs/message.png",
+            "selectedIconPath": "/images/tabs/message.png"
+          }
+      ]
+  },
+  "usingComponents": {
+      "van-button": "@vant/weapp/button/index",
+      "towxml":"/towxml/towxml"
+  },
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#33ffcc",
+    "navigationBarTitleText": "mingzhu",
     "navigationBarTextStyle":"black"
   },
   "sitemapLocation": "sitemap.json"
